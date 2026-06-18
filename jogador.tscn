@@ -1,8 +1,16 @@
-[gd_scene format=3 uid="uid://cotlupp7y1tq5"]
+[gd_scene load_steps=3 format=3 uid="uid://c3jogador"]
 
-[ext_resource type="Texture2D" uid="uid://d0xuv7cr73aog" path="res://icon.svg" id="1_yuxfx"]
+[ext_resource type="Script" path="res://jogador.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://icon.svg" id="2_texture"]
 
-[node name="Jogador" type="CharacterBody2D" unique_id=1446858991]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3"]
+size = Vector2(60, 60)
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=760100051]
-texture = ExtResource("1_yuxfx")
+[node name="Jogador" type="CharacterBody2D"]
+script = ExtResource("1_script")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_texture")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_3")
