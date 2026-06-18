@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://c8portal"]
+[gd_scene format=3 uid="uid://c8portal"]
 
 [ext_resource type="Script" path="res://portal.gd" id="1_script"]
 

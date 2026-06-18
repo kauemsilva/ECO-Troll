@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://c9fase2"]
+[gd_scene format=3 uid="uid://dafase2"]
 
 [ext_resource type="PackedScene" path="res://jogador.tscn" id="1_player"]
 [ext_resource type="PackedScene" path="res://armadilha_espinho.tscn" id="2_trap"]
