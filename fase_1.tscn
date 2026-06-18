@@ -1,13 +1,16 @@
-[gd_scene load_steps=5 format=3 uid="uid://c4fase1"]
+[gd_scene load_steps=6 format=3 uid="uid://c4fase1"]
 
 [ext_resource type="PackedScene" path="res://jogador.tscn" id="1_player"]
 [ext_resource type="PackedScene" path="res://armadilha_espinho.tscn" id="2_trap"]
 [ext_resource type="Texture2D" path="res://icon.svg" id="3_texture"]
+[ext_resource type="PackedScene" path="res://hud.tscn" id="4_hud"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4"]
 size = Vector2(1152, 64)
 
 [node name="Fase1" type="Node2D"]
+
+[node name="HUD" parent="." instance=ExtResource("4_hud")]
 
 [node name="Jogador" parent="." instance=ExtResource("1_player")]
 position = Vector2(150, 450)

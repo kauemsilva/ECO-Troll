@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://c5hud"]
+
+[ext_resource type="Script" uid="uid://cghiyevwscrra" path="res://hud.gd" id="1_script"]
+
+[node name="HUD" type="CanvasLayer" unique_id=1044615193]
+script = ExtResource("1_script")
+
+[node name="Label" type="Label" parent="." unique_id=733236186]
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 150.0
+offset_bottom = 60.0
+theme_override_font_sizes/font_size = 24
+text = "Vidas: 15"

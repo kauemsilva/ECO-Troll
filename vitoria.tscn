@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://c6vitoria"]
+
+[node name="Vitoria" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0.117647, 0.341176, 0.14902, 1)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 300.0
+offset_top = 280.0
+offset_right = 852.0
+offset_bottom = 350.0
+theme_override_font_sizes/font_size = 48
+text = "VOCE SE FORMOU EM ECO! (Sucesso)"
+horizontal_alignment = 1
